@@ -1,6 +1,6 @@
 package array;
 
-import special.MultiplyExceptSelf;
+import special.MultiplyExceptSelf_238;
 
 import java.util.Arrays;
 
@@ -9,7 +9,7 @@ public class TestMES {
         char[] tns=new char[]{'1','2'};
         StringBuilder stringBuilder=new StringBuilder();
         System.out.println(stringBuilder.append(tns));
-        MultiplyExceptSelf a=new MultiplyExceptSelf();
+        MultiplyExceptSelf_238 a=new MultiplyExceptSelf_238();
         int[] ans=a.productExceptSelf(new int[]{1,2,3,4});
         Arrays.stream(ans).iterator();
     }
