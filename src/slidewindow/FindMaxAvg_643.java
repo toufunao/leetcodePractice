@@ -1,4 +1,4 @@
-package array;
+package slidewindow;
 
 public class FindMaxAvg_643 {
     public double findMaxAverage(int[] nums, int k) {
